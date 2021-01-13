@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -9,7 +10,309 @@
 </head>
 
 <body>
+    <header id="header">
+        <h1>James Zhao's Website</h1>
+        <p>A bit about me</p>
+    </header>
+    <hr>
+    <nav>
+        Navigation:
+        <!-- These images use the icons used by the respective websites -->
+        <a href="https://github.com/jameszhao01"><img src="https://github.com/fluidicon.png" width="16px"
+                height="16px" />Github</a>
+        <a href="https://www.linkedin.com/in/jamesjzhao01"><img
+                src="data:image/png;base64,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"
+                width="16px" height="16px" />Linkedin</a>
+        <a href="https://www.instagram.com/j__zhao/"><img
+                src="https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png" width="16px"
+                height="16px" />Instagram</a>
+    </nav>
+    <hr>
+    <main>
+        <h2>Basic Information: </h2>
+        <pre>System.out.println("Hello World!")</pre>
+        <code>print("Hello World!")</code>
+        <p>My name is James Zhao, and I am a second-year studnet majoring in I am a second-year student majoring in
+            <b>CS</b> and minoring in <b>Math</b>. <br>
+            I like to play piano, play video games, program, and watch anime and youtube.
+            Currently, my most favorite video games are <em>Heroes of the Storm</em>, <i>League</i>, and
+            <i>Valorant</i>. </p>
+        <p>I am currently a member of ACM, IEEE, and TritonUAS, and am in the processing of inducting into TBP and HKN.
+        </p>
+        <h3>Favorite Video Game Champions</h3>
+        <ul>
+            <li> Valorant
+                <ul>
+                    <li>Sova</li>
+                    <li>Omen</li>
+                    <li>Jett</li>
+                </ul>
+            </li>
+            <li> League
+                <ul>
+                    <li>Lux</li>
+                    <li>Morgana</li>
+                    <li>Ezreal</li>
+                </ul>
+            </li>
+            <li> Heroes of the Storm
+                <ul>
+                    <li>Orphea</li>
+                    <li>Kael'thas</li>
+                    <li>Zul'Jin</li>
+                </ul>
+            </li>
+        </ul>
+        <h3>WI20 Current Classes(populated using template &amp; Javascript)</h3>
+        <ol id="ol">
+        </ol>
+        <template>
+            <li>CSE 101</li>
+            <li>CSE 110</li>
+            <li>CSE 132A</li>
+            <li>CSE 199</li>
+            <li>AIP 197</li>
+        </template>
+        <script>
+            let classes = ["CSE 101", "CSE 110", "CSE 132A", "CSE 199", "AIP 197"];
+            let ol = document.getElementById("ol");
+            var template = document.querySelector("template")
+            for (let i = 0; i < classes.length; i++) {
+                var clone = template.content.cloneNode(true);
+                var li = clone.querySelector("li");
+                li.textContent = classes[i];
+                ol.appendChild(li);
+            }
+        </script>
+    </main>
+    <section>
+        <h3>Previous Classes</h3>
+        <table border="1px">
+            <colgroup>
+                <col style="background-color: red">
+                <col style="background-color: orange">
+                <col style="background-color: yellow">
+                <col style="background-color: green">
+                <col style="background-color: blue">
+            </colgroup>
+            <tr>
+                <th>FA19</th>
+                <th>WI20</th>
+                <th>SP20</th>
+                <th>SS1-20</th>
+                <th>SS2-20</th>
+            </tr>
+            <tr>
+                <td>CSE11</td>
+                <td>CSE12</td>
+                <td>CSE21</td>
+                <td>MATH20D</td>
+                <td>MATH20E</td>
+            </tr>
+            <tr>
+                <td>MUS15</td>
+                <td>CSE20</td>
+                <td>CSE30</td>
+                <td>MMW14</td>
+                <td>MMW15</td>
+            </tr>
+            <tr>
+                <td>MMW11</td>
+                <td>CSE15L</td>
+                <td>LIGN8</td>
+            </tr>
+            <tr>
+                <td>MATH20C</td>
+                <td>PHYS2A</td>
+                <td>MATH183</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>MMW12</td>
+                <td>MMW13</td>
+            </tr>
+            <tr>
+                <th>FA20</th>
+            </tr>
+            <tr>
+                <td>CSE100</td>
+            </tr>
+            <tr>
+                <td>CSE105</td>
+            </tr>
+            <tr>
+                <td>MATH180A</td>
+            </tr>
+            <tr>
+                <td>CSE151B</td>
+            </tr>
+        </table>
+    </section>
+    <aside>
+        <h2>Gallery</h2>
+        <div>
+            University I attend: <br>
+            <iframe width="300" height="200"
+                src="https://www.openstreetmap.org/search?query=9450%20Gilman%20Drive#map=17/32.87706/-117.23317"></iframe>
+            <br>
+        </div>
+        <div>
+            Click for a picture of me: <br>
+            <details>
+                <summary>Picture of me: </summary>
+                <picture>
+                    <img src="IMG-0980.JPG" width="200px" height="250px" />
+                </picture>
+            </details>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <span>Canvas drawing I made</span><br>
+                    <canvas width="300" height="300"></canvas>
+                    <script>
+                        const canvas = document.querySelector("canvas");
+                        const ctx = canvas.getContext('2d');
+                        ctx.fillStyle = "red";
+                        ctx.fillRect(25, 25, 35, 80);
+                        ctx.strokeStyle = "orange";
+                        ctx.lineWidth = 5;
+                        ctx.beginPath();
+                        ctx.moveTo(250, 20);
+                        ctx.lineTo(0, 350);
+                        ctx.lineTo(155, 64);
+                        ctx.stroke();
 
+                        ctx.strokeStyle = "green";
+                        ctx.lineWidth = 8;
+                        ctx.beginPath();
+                        ctx.moveTo(125, 34);
+                        ctx.lineTo(0, -25);
+                        ctx.lineTo(55, 185);
+                        ctx.stroke();
+
+                        ctx.strokeStyle = "blue";
+                        ctx.lineWidth = 8;
+                        ctx.beginPath();
+                        ctx.moveTo(250, 220);
+                        ctx.lineTo(350, 360);
+                        ctx.lineTo(0, 125);
+                        ctx.stroke();
+                    </script>
+                </td>
+                <td>
+                    <span>Svg Drawing of UCSD:</span><br>
+                    <svg width="300" height="300">
+                        <rect width="10" height="200" x="150" , y="25" fill="yellow" />
+                        <rect width="10" height="50" x="110" , y="50" fill="yellow" />
+                        <rect width="10" height="50" x="190" , y="50" fill="yellow" />
+                        <rect width="90" height="10" x="110" , y="100" fill="yellow" />
+                        <text x="110" y="150" font-size="36px" fill="blue">UCSD</text>
+                    </svg>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Favorite video game soundtrack (Enter Hallownest):<br>
+                    <video controls width="250">
+                        <source src="EnterHallownest.mp4" type="video/mp4">
+                    </video>
+                </td>
+                <td>
+                    <figure>
+                        <figcaption>One of my favorite songs: ANiMA by XI:</figcaption>
+                        <audio controls src="Anima.mp3"></audio>
+                    </figure>
+                </td>
+            </tr>
+        </table>
+    </aside>
+    <section>
+        <h2>Survey</h2>
+        <hr>
+        <form action="" method="post">
+            <div>
+                <!-- text, radio, submit, file, email, range, reset, date, color-->
+                <label for="name">Enter your name: </label>
+                <input type="text" id="name">
+                <br>
+                <label for="response">Describe yourself: <br></label>
+                <textarea id="response"></textarea>
+                <br>
+                <label for="animal">Favorite animal: </label>
+                <select id="animal">
+                    <optgroup label="Birds">
+                        <option>Pigeon</option>
+                        <option>Chicken</option>
+                        <option>Ostritch</option>
+                    </optgroup>
+                    <optgroup label="Mammals">
+                        <option>Cat</option>
+                        <option>Dog</option>
+                        <option>Monke</option>
+                    </optgroup>
+                </select>
+                <fieldset>
+                    <legend>What college are you in?</legend>
+
+                    <input type="radio" id="ERC" />
+                    <label for="ERC">ERC</label>
+
+                    <input type="radio" id="Warren" />
+                    <label for="Warren">Warren</label>
+
+                    <input type="radio" id="Revelle" />
+                    <label for="Revelle">Revelle</label>
+
+                    <input type="radio" id="Muir" />
+                    <label for="Muir">Muir</label>
+
+                    <input type="radio" id="Seventh" />
+                    <label for="Seventh">Seventh</label>
+
+                    <input type="radio" id="Sixth" />
+                    <label for="Sixth">Sixth</label>
+                </fieldset>
+                <label for="datalist">What is your favoriate color:</label>
+                <input list="color-list" id="datalist" name="datalist" /><br>
+                <datalist id="color-list">
+                    <option value="Red"></option>
+                    <option value="Orange"></option>
+                    <option value="Yellow"></option>
+                    <option value="Green"></option>
+                    <option value="Blue"></option>
+                    <option value="Purple"></option>
+                </datalist>
+
+                <label for="upload">Upload a picture: </label>
+                <input type="file" id="upload" name="upload" accept="image/png, image/jpeg"><br>
+
+                <label for="email">Input your email: </label>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="range">On a scale of 1-10, how happy are you today: </label>
+                <input type="range" id="range" name="range" min="0" , max="10"><br>
+
+                <label for="date">What is your birthdate: </label>
+                <input type="date" id="date" name="date"><br>
+
+                <label for="color">What is your hair color?: </label>
+                <input type="color" id="color" name="color"><br>
+
+
+            </div>
+            <input type="reset" />
+            <input type="submit" />
+        </form>
+
+    </section>
+    <hr>
+    <button onclick="window.location.href = '#header'">Return to top</button>
+    <footer>
+        <hr>
+        Contact: jjz005@ucsd.edu <br />
+        &copy; 2021
+    </footer>
 </body>
 
 </html>
