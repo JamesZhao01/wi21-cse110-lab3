@@ -14,6 +14,10 @@
     <style>
         * {
             text-align: center;
+
+        }
+
+        body {
             background-color: lightsteelblue;
         }
     </style>
@@ -76,7 +80,8 @@
         <img src="https://hkn.ucsd.edu/wp-content/uploads/2018/03/300-hkn-logo.png" width="210" height="180" alt="hkn">
         <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Ieee_blue.jpg" width="540" height="180"
             alt="ieee">
-        <p>I am primarily interested in Machine Learning/AI, which is why I am currently a member of TritonUAS's
+        <p class="medium"> I am primarily interested in Machine Learning/AI, which is why I am currently a member of
+            TritonUAS's
             computer vision team and a research assistant for Gary Cottrell. </p>
         <h3>Favorite Video Game Champions</h3>
         <ul>
@@ -142,7 +147,7 @@
     </main>
     <section>
         <h3>Previous Classes</h3>
-        <table style="border: 1px solid black;">
+        <table style="border: 1px solid black; min-width: 40%; width: 400px;">
             <colgroup>
                 <col style="background-color: red">
                 <col style="background-color: orange">
@@ -231,82 +236,83 @@
     </section>
     <aside>
         <h2>Gallery</h2>
-        <div>
-            University I attend: <br>
-            <iframe width="300" height="200"
-                src="https://www.mapquest.com/us/ca/la-jolla/92093-0001/9450-gilman-dr-32.875815,-117.239211"></iframe>
-            <br>
-        </div>
-        <div>
-            Click below for a picture of me: <br>
-            <details>
-                <summary>Picture of me: </summary>
-                <picture>
-                    <img src="IMG-0980.JPG" width="200" height="250" alt="James Zhao" />
-                </picture>
-            </details>
-        </div>
-        <table>
-            <tr>
-                <td>
-                    <span>Canvas drawing I made</span><br>
-                    <canvas width="300" height="300"></canvas>
-                    <script>
-                        const canvas = document.querySelector("canvas");
-                        const ctx = canvas.getContext('2d');
-                        ctx.fillStyle = "red";
-                        ctx.fillRect(25, 25, 35, 80);
-                        ctx.strokeStyle = "orange";
-                        ctx.lineWidth = 5;
-                        ctx.beginPath();
-                        ctx.moveTo(250, 20);
-                        ctx.lineTo(0, 350);
-                        ctx.lineTo(155, 64);
-                        ctx.stroke();
+        <div class="grid large">
+            <div style="grid-column-start: 2; grid-column-end: 3;">
+                University I attend: <br>
+                <iframe width="300" height="200"
+                    src="https://www.mapquest.com/us/ca/la-jolla/92093-0001/9450-gilman-dr-32.875815,-117.239211"></iframe>
+                <br>
+            </div>
+            <div style="grid-column-start: 1; grid-column-end: 3;">
+                Click below for a picture of me: <br>
+                <details>
+                    <summary>Picture of me: </summary>
+                    <picture>
+                        <img src="IMG-0980.JPG" width="200" height="250" alt="James Zhao" />
+                    </picture>
+                </details>
+            </div>
+            <div>
+                <span>Canvas drawing I made</span><br>
+                <canvas width="300" height="300"></canvas>
+                <script>
+                    const canvas = document.querySelector("canvas");
+                    const ctx = canvas.getContext('2d');
+                    ctx.fillStyle = "red";
+                    ctx.fillRect(25, 25, 35, 80);
+                    ctx.strokeStyle = "orange";
+                    ctx.lineWidth = 5;
+                    ctx.beginPath();
+                    ctx.moveTo(250, 20);
+                    ctx.lineTo(0, 350);
+                    ctx.lineTo(155, 64);
+                    ctx.stroke();
 
-                        ctx.strokeStyle = "green";
-                        ctx.lineWidth = 8;
-                        ctx.beginPath();
-                        ctx.moveTo(125, 34);
-                        ctx.lineTo(0, -25);
-                        ctx.lineTo(55, 185);
-                        ctx.stroke();
+                    ctx.strokeStyle = "green";
+                    ctx.lineWidth = 8;
+                    ctx.beginPath();
+                    ctx.moveTo(125, 34);
+                    ctx.lineTo(0, -25);
+                    ctx.lineTo(55, 185);
+                    ctx.stroke();
 
-                        ctx.strokeStyle = "blue";
-                        ctx.lineWidth = 8;
-                        ctx.beginPath();
-                        ctx.moveTo(250, 220);
-                        ctx.lineTo(350, 360);
-                        ctx.lineTo(0, 125);
-                        ctx.stroke();
-                    </script>
-                </td>
-                <td>
-                    <span>Svg Drawing of UCSD:</span><br>
-                    <svg width="300" height="300">
-                        <rect width="10" height="200" x="150" y="25" fill="yellow" />
-                        <rect width="10" height="50" x="110" y="50" fill="yellow" />
-                        <rect width="10" height="50" x="190" y="50" fill="yellow" />
-                        <rect width="90" height="10" x="110" y="100" fill="yellow" />
-                        <text x="110" y="150" font-size="36px" fill="blue">UCSD</text>
-                    </svg>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Favorite video game soundtrack (Enter Hallownest):<br>
-                    <video controls width="250">
-                        <source src="EnterHallownest.mp4" type="video/mp4">
-                    </video>
-                </td>
-                <td>
-                    <figure>
-                        <figcaption>One of my favorite songs: ANiMA by XI:</figcaption>
-                        <audio controls src="Anima.mp3"></audio>
-                    </figure>
-                </td>
-            </tr>
-        </table>
+                    ctx.strokeStyle = "blue";
+                    ctx.lineWidth = 8;
+                    ctx.beginPath();
+                    ctx.moveTo(250, 220);
+                    ctx.lineTo(350, 360);
+                    ctx.lineTo(0, 125);
+                    ctx.stroke();
+                </script>
+            </div>
+            <div>
+                <span>Svg Drawing of UCSD:</span><br>
+                <svg width="300" height="300">
+                    <rect width="10" height="200" x="150" y="25" fill="yellow" />
+                    <rect width="10" height="50" x="110" y="50" fill="yellow" />
+                    <rect width="10" height="50" x="190" y="50" fill="yellow" />
+                    <rect width="90" height="10" x="110" y="100" fill="yellow" />
+                    <text x="110" y="150" font-size="36px" fill="blue">UCSD</text>
+                </svg>
+            </div>
+            <div>
+                Favorite video game soundtrack (Enter Hallownest):<br>
+                <video controls width="250">
+                    <source src="EnterHallownest.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div>
+                <figure>
+                    <figcaption>One of my favorite songs: ANiMA by XI:</figcaption>
+                    <audio controls src="Anima.mp3"></audio>
+                </figure>
+            </div>
+        </div>
+
+
+
+
+
     </aside>
     <section>
         <h2>Survey</h2>
