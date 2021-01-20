@@ -3,13 +3,13 @@
 ## Meeting Minutes
 ## ___ __, 2021
 
-**Opening**
+**Opening**: \
 This meeting began at _:__ PST on __ __, 2021 virtually through Zoom by ____
 
-**Meeting Type**
+**Meeting Type**: \
 Standup/Group
 
-**Members Present**
+**Members Present**: \
 Muhammad
 Xavier
 James
@@ -18,7 +18,7 @@ Yash
 Haaris
 Luke
 
-**Members Absent**
+**Members Absent**: \
 
 ## Agenda
 Do xyz
@@ -26,10 +26,10 @@ Do this as welll
 foobar
 
 ## New Business
-**Thing 1**
+**Thing 1**: \
 lorem ipsum, description of Thing 1
 
-**Business piece 2**
+**Business piece 2**: \
 descriptpion of business piece 2
 
 ## TODOS
@@ -39,7 +39,8 @@ descriptpion of business piece 2
 | Task y | February 99, 2021|
 
 <br>
-**Adjournment**
+
+**Adjournment**: \
 Meeting was adjourned at ___:__ PST, by _____
 
 Minutes submitted by: _____
