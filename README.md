@@ -6,4 +6,5 @@ Notes
 - some css attributes are only present in the stylesheet or in the html(inline/style tag)
 - pull requests/issues are already closed
 - Custom css issue template was used
-- custom label css was used
+- custom label css was used and created
+- custom label "critical" was created
