@@ -22,10 +22,10 @@ Luke
 Nobody
 
 ## Agenda
-Do xyz
-Do this as welll
-foobar
-
+- Do xyz
+- Do this as welll
+- foobar
+  - sub description
 ## New Business
 **Thing 1**: \
 lorem ipsum, description of Thing 1
