@@ -33,6 +33,11 @@ lorem ipsum, description of Thing 1
 **Business piece 2**: \
 descriptpion of business piece 2
 
+## What is being worked on
+**Muhammad's Project** \
+description of Muhammad's Project
+
+
 ## TODOS
 | Tasks to be done | Deadline |
 | ---------------- | --------
