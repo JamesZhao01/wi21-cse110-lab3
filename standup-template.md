@@ -7,7 +7,7 @@
 This meeting began at _:__ PST on __ __, 2021 virtually through Zoom by ____
 
 **Meeting Type**
-___
+Standup/Group
 
 **Members Present**
 Muhammad
