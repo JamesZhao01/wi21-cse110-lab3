@@ -18,7 +18,7 @@
 }
 
 .medium{
-    max-width: 800px;
+    max-width: 50%;
     margin: 0 auto 0 auto;
 }
 
@@ -36,7 +36,11 @@ h2 ~ img {
     top: 0px; 
     left: 0px;
     background-color: transparent;
-    padding: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+table {
+    margin: auto;
 }
 /* Nagivation */
 nav a[href] {
@@ -95,4 +99,21 @@ code{
 
 b{
     text-decoration: overline;
+}
+
+/* gallery */
+.grid {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    justify-content: center;
+    background-color: gray;
+    align-items: stretch;
+}
+
+.grid div {
+    background-color: green;
+    width: auto;
+
 }
