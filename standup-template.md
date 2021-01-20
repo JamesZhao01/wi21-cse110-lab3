@@ -16,9 +16,10 @@ James \
 Ivan \
 Yash \
 Haaris \
-Luke \
+Luke 
 
 **Members Absent**: \
+Nobody
 
 ## Agenda
 Do xyz
