@@ -10,13 +10,13 @@ This meeting began at _:__ PST on __ __, 2021 virtually through Zoom by ____
 Standup/Group
 
 **Members Present**: \
-Muhammad
-Xavier
-James
-Ivan
-Yash
-Haaris
-Luke
+Muhammad \
+Xavier \
+James \
+Ivan \
+Yash \
+Haaris \
+Luke \
 
 **Members Absent**: \
 
