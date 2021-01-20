@@ -1,4 +1,4 @@
-
+/* general styling throughout the website(including flex layout) */
 .flex {
     display: flex;
     flex-direction: row;
@@ -42,7 +42,8 @@ h2 ~ img {
 table {
     margin: auto;
 }
-/* Nagivation */
+
+/* Nagivation styling */
 nav a[href] {
     background-color: #d1ffb8;
     padding-top: 5px;
@@ -87,6 +88,7 @@ pre, code {
     padding: 0.1cm;
 }
 pre {
+    display: inline;
     position: relative;
     left: 25px;
     font-size: 1vw;
@@ -101,7 +103,7 @@ b{
     text-decoration: overline;
 }
 
-/* gallery */
+/* gallery(grid layout) */
 .grid {
     display: grid;
     grid-template-columns: 50% 1fr;
@@ -116,4 +118,10 @@ b{
     background-color: green;
     width: auto;
 
+}
+
+/* form */
+#form {
+    background-color: lightgray;
+    padding: 1em;
 }
